@@ -3,6 +3,5 @@
 def parrot(phrase = "Squawk")
   phrase.capitalize
   puts "#{phrase}!"
-  #return "#{phrase}!"
-  phrase
+  return "#{phrase}!"
 end
