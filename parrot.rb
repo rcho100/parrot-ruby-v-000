@@ -2,8 +2,8 @@
 # returns the phrase
 
 #"Pretty bird!" 
-def parrot(phrase = "Squawk")
+def parrot(phrase = "Squawk!")
   phrase.capitalize
-  puts "#{phrase}!"
-  return "#{phrase}!"
+  puts "#{phrase}"
+  return "#{phrase}"
 end
