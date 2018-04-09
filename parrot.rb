@@ -3,4 +3,5 @@
 def parrot(phrase = squawk)
   phrase.caplitalize
   puts "#{phrase}!"
+  return "#{phrase}!"
 end
