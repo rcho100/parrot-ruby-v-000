@@ -1,7 +1,7 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 
-#lea
+#"Pretty bird!" 
 def parrot(phrase = "Squawk")
   phrase.capitalize
   puts "#{phrase}!"
